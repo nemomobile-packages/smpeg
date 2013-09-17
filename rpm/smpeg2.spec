@@ -6,6 +6,7 @@ License:   LGPL
 Group:     System Environment/Libraries
 Source:    %{name}-%{version}.tar.gz
 URL:       http://icculus.org/smpeg/
+BuildRequires: pkgconfig(sdl2)
 
 %description
 SMPEG is based on UC Berkeley's mpeg_play software MPEG decoder
