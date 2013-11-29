@@ -6,6 +6,8 @@ License:   LGPL
 Group:     System Environment/Libraries
 Source:    %{name}-%{version}.tar.gz
 URL:       http://icculus.org/smpeg/
+BuildRequires: autoconf
+BuildRequires: automake
 BuildRequires: pkgconfig(sdl2)
 
 %description
